@@ -1,3 +1,10 @@
+a {
+  text-decoration: none;
+  color: #000;
+}
+h1 {
+  margin: 15px;
+}
 .recipe {
   border-radius: 10px;
   box-shadow: 0px 5px 20px rgb(71,71,71);
@@ -7,11 +14,19 @@
   justify-content: space-around;
   background: white;
   align-items: center;
-  min-width: 40%;
-
+  min-width: 60%;
 }
 .image {
   border-radius: 50%;
   width: 100px;
   height: 100px;
+  padding-top: 15px;
+}
+.list {
+  margin: 0 15px 0 15px;
+  font-family: Roboto;
+}
+p {
+  padding-bottom: 15px;
+  font-weight: bold;
 }
